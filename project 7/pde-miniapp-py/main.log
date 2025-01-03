@@ -1,0 +1,419 @@
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  128 x  128, dx = 0.007874, dy = 0.007874
+time      ::  100 time steps from 0 to 0.010000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+4 processes decomposed into a 2 x 2 Cartesian topology
+icsnode34 rank   0 /   4 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size  64 x  64
+icsnode34 rank   1 /   4 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size  64 x  64
+icsnode34 rank   2 /   4 : (  1,  0) neigh N:S   3 :  -1 neigh E:W  -1 :   0 local size  64 x  64
+icsnode34 rank   3 /   4 : (  1,  1) neigh N:S  -1 :   2 neigh E:W  -1 :   1 local size  64 x  64
+=== Begin of simulation ===
+--------------------------------------------------------------------------------
+timestep / time:     0 /   0.000000
+success, new time:   0.000100
+required     2 Newton iterations for residual 7.574328e-07
+--------------------------------------------------------------------------------
+timestep / time:     1 /   0.000100
+success, new time:   0.000200
+required     2 Newton iterations for residual 9.074592e-07
+--------------------------------------------------------------------------------
+timestep / time:     2 /   0.000200
+success, new time:   0.000300
+required     2 Newton iterations for residual 5.817556e-07
+--------------------------------------------------------------------------------
+timestep / time:     3 /   0.000300
+success, new time:   0.000400
+required     2 Newton iterations for residual 7.365908e-07
+--------------------------------------------------------------------------------
+timestep / time:     4 /   0.000400
+success, new time:   0.000500
+required     2 Newton iterations for residual 9.220556e-07
+--------------------------------------------------------------------------------
+timestep / time:     5 /   0.000500
+success, new time:   0.000600
+required     2 Newton iterations for residual 5.893531e-07
+--------------------------------------------------------------------------------
+timestep / time:     6 /   0.000600
+success, new time:   0.000700
+required     2 Newton iterations for residual 8.316605e-07
+--------------------------------------------------------------------------------
+timestep / time:     7 /   0.000700
+success, new time:   0.000800
+required     2 Newton iterations for residual 7.269272e-07
+--------------------------------------------------------------------------------
+timestep / time:     8 /   0.000800
+success, new time:   0.000900
+required     2 Newton iterations for residual 8.084544e-07
+--------------------------------------------------------------------------------
+timestep / time:     9 /   0.000900
+success, new time:   0.001000
+required     2 Newton iterations for residual 6.560356e-07
+--------------------------------------------------------------------------------
+timestep / time:    10 /   0.001000
+success, new time:   0.001100
+required     2 Newton iterations for residual 7.777110e-07
+--------------------------------------------------------------------------------
+timestep / time:    11 /   0.001100
+success, new time:   0.001200
+required     2 Newton iterations for residual 8.636549e-07
+--------------------------------------------------------------------------------
+timestep / time:    12 /   0.001200
+success, new time:   0.001300
+required     2 Newton iterations for residual 9.399185e-07
+--------------------------------------------------------------------------------
+timestep / time:    13 /   0.001300
+success, new time:   0.001400
+required     2 Newton iterations for residual 8.201121e-07
+--------------------------------------------------------------------------------
+timestep / time:    14 /   0.001400
+success, new time:   0.001500
+required     2 Newton iterations for residual 6.597056e-07
+--------------------------------------------------------------------------------
+timestep / time:    15 /   0.001500
+success, new time:   0.001600
+required     2 Newton iterations for residual 6.720518e-07
+--------------------------------------------------------------------------------
+timestep / time:    16 /   0.001600
+success, new time:   0.001700
+required     2 Newton iterations for residual 5.767202e-07
+--------------------------------------------------------------------------------
+timestep / time:    17 /   0.001700
+success, new time:   0.001800
+required     2 Newton iterations for residual 8.898393e-07
+--------------------------------------------------------------------------------
+timestep / time:    18 /   0.001800
+success, new time:   0.001900
+required     2 Newton iterations for residual 7.893685e-07
+--------------------------------------------------------------------------------
+timestep / time:    19 /   0.001900
+success, new time:   0.002000
+required     2 Newton iterations for residual 7.673087e-07
+--------------------------------------------------------------------------------
+timestep / time:    20 /   0.002000
+success, new time:   0.002100
+required     2 Newton iterations for residual 6.602061e-07
+--------------------------------------------------------------------------------
+timestep / time:    21 /   0.002100
+success, new time:   0.002200
+required     2 Newton iterations for residual 9.962359e-07
+--------------------------------------------------------------------------------
+timestep / time:    22 /   0.002200
+success, new time:   0.002300
+required     2 Newton iterations for residual 5.184411e-07
+--------------------------------------------------------------------------------
+timestep / time:    23 /   0.002300
+success, new time:   0.002400
+required     2 Newton iterations for residual 9.382547e-07
+--------------------------------------------------------------------------------
+timestep / time:    24 /   0.002400
+success, new time:   0.002500
+required     2 Newton iterations for residual 8.909903e-07
+--------------------------------------------------------------------------------
+timestep / time:    25 /   0.002500
+success, new time:   0.002600
+required     2 Newton iterations for residual 9.621425e-07
+--------------------------------------------------------------------------------
+timestep / time:    26 /   0.002600
+success, new time:   0.002700
+required     2 Newton iterations for residual 8.324880e-07
+--------------------------------------------------------------------------------
+timestep / time:    27 /   0.002700
+success, new time:   0.002800
+required     2 Newton iterations for residual 7.765608e-07
+--------------------------------------------------------------------------------
+timestep / time:    28 /   0.002800
+success, new time:   0.002900
+required     2 Newton iterations for residual 8.080840e-07
+--------------------------------------------------------------------------------
+timestep / time:    29 /   0.002900
+success, new time:   0.003000
+required     2 Newton iterations for residual 7.446626e-07
+--------------------------------------------------------------------------------
+timestep / time:    30 /   0.003000
+success, new time:   0.003100
+required     2 Newton iterations for residual 7.023675e-07
+--------------------------------------------------------------------------------
+timestep / time:    31 /   0.003100
+success, new time:   0.003200
+required     2 Newton iterations for residual 7.353880e-07
+--------------------------------------------------------------------------------
+timestep / time:    32 /   0.003200
+success, new time:   0.003300
+required     2 Newton iterations for residual 7.185599e-07
+--------------------------------------------------------------------------------
+timestep / time:    33 /   0.003300
+success, new time:   0.003400
+required     2 Newton iterations for residual 7.018388e-07
+--------------------------------------------------------------------------------
+timestep / time:    34 /   0.003400
+success, new time:   0.003500
+required     2 Newton iterations for residual 7.059764e-07
+--------------------------------------------------------------------------------
+timestep / time:    35 /   0.003500
+success, new time:   0.003600
+required     2 Newton iterations for residual 9.662250e-07
+--------------------------------------------------------------------------------
+timestep / time:    36 /   0.003600
+success, new time:   0.003700
+required     2 Newton iterations for residual 6.389744e-07
+--------------------------------------------------------------------------------
+timestep / time:    37 /   0.003700
+success, new time:   0.003800
+required     2 Newton iterations for residual 6.530227e-07
+--------------------------------------------------------------------------------
+timestep / time:    38 /   0.003800
+success, new time:   0.003900
+required     2 Newton iterations for residual 9.749182e-07
+--------------------------------------------------------------------------------
+timestep / time:    39 /   0.003900
+success, new time:   0.004000
+required     2 Newton iterations for residual 6.051758e-07
+--------------------------------------------------------------------------------
+timestep / time:    40 /   0.004000
+success, new time:   0.004100
+required     2 Newton iterations for residual 5.607439e-07
+--------------------------------------------------------------------------------
+timestep / time:    41 /   0.004100
+success, new time:   0.004200
+required     2 Newton iterations for residual 9.623203e-07
+--------------------------------------------------------------------------------
+timestep / time:    42 /   0.004200
+success, new time:   0.004300
+required     2 Newton iterations for residual 6.346464e-07
+--------------------------------------------------------------------------------
+timestep / time:    43 /   0.004300
+success, new time:   0.004400
+required     2 Newton iterations for residual 6.188370e-07
+--------------------------------------------------------------------------------
+timestep / time:    44 /   0.004400
+success, new time:   0.004500
+required     2 Newton iterations for residual 5.808188e-07
+--------------------------------------------------------------------------------
+timestep / time:    45 /   0.004500
+success, new time:   0.004600
+required     2 Newton iterations for residual 6.184166e-07
+--------------------------------------------------------------------------------
+timestep / time:    46 /   0.004600
+success, new time:   0.004700
+required     2 Newton iterations for residual 6.139450e-07
+--------------------------------------------------------------------------------
+timestep / time:    47 /   0.004700
+success, new time:   0.004800
+required     2 Newton iterations for residual 6.182971e-07
+--------------------------------------------------------------------------------
+timestep / time:    48 /   0.004800
+success, new time:   0.004900
+required     2 Newton iterations for residual 5.697991e-07
+--------------------------------------------------------------------------------
+timestep / time:    49 /   0.004900
+success, new time:   0.005000
+required     2 Newton iterations for residual 5.995078e-07
+--------------------------------------------------------------------------------
+timestep / time:    50 /   0.005000
+success, new time:   0.005100
+required     2 Newton iterations for residual 5.984505e-07
+--------------------------------------------------------------------------------
+timestep / time:    51 /   0.005100
+success, new time:   0.005200
+required     2 Newton iterations for residual 9.238488e-07
+--------------------------------------------------------------------------------
+timestep / time:    52 /   0.005200
+success, new time:   0.005300
+required     2 Newton iterations for residual 9.226029e-07
+--------------------------------------------------------------------------------
+timestep / time:    53 /   0.005300
+success, new time:   0.005400
+required     2 Newton iterations for residual 9.174769e-07
+--------------------------------------------------------------------------------
+timestep / time:    54 /   0.005400
+success, new time:   0.005500
+required     2 Newton iterations for residual 9.682031e-07
+--------------------------------------------------------------------------------
+timestep / time:    55 /   0.005500
+success, new time:   0.005600
+required     2 Newton iterations for residual 9.216303e-07
+--------------------------------------------------------------------------------
+timestep / time:    56 /   0.005600
+success, new time:   0.005700
+required     2 Newton iterations for residual 9.699350e-07
+--------------------------------------------------------------------------------
+timestep / time:    57 /   0.005700
+success, new time:   0.005800
+required     2 Newton iterations for residual 9.274726e-07
+--------------------------------------------------------------------------------
+timestep / time:    58 /   0.005800
+success, new time:   0.005900
+required     2 Newton iterations for residual 9.253021e-07
+--------------------------------------------------------------------------------
+timestep / time:    59 /   0.005900
+success, new time:   0.006000
+required     2 Newton iterations for residual 9.191473e-07
+--------------------------------------------------------------------------------
+timestep / time:    60 /   0.006000
+success, new time:   0.006100
+required     2 Newton iterations for residual 8.162016e-07
+--------------------------------------------------------------------------------
+timestep / time:    61 /   0.006100
+success, new time:   0.006200
+required     2 Newton iterations for residual 8.983856e-07
+--------------------------------------------------------------------------------
+timestep / time:    62 /   0.006200
+success, new time:   0.006300
+required     2 Newton iterations for residual 7.197537e-07
+--------------------------------------------------------------------------------
+timestep / time:    63 /   0.006300
+success, new time:   0.006400
+required     2 Newton iterations for residual 7.877680e-07
+--------------------------------------------------------------------------------
+timestep / time:    64 /   0.006400
+success, new time:   0.006500
+required     2 Newton iterations for residual 8.218013e-07
+--------------------------------------------------------------------------------
+timestep / time:    65 /   0.006500
+success, new time:   0.006600
+required     2 Newton iterations for residual 7.847240e-07
+--------------------------------------------------------------------------------
+timestep / time:    66 /   0.006600
+success, new time:   0.006700
+required     2 Newton iterations for residual 7.156864e-07
+--------------------------------------------------------------------------------
+timestep / time:    67 /   0.006700
+success, new time:   0.006800
+required     2 Newton iterations for residual 9.628558e-07
+--------------------------------------------------------------------------------
+timestep / time:    68 /   0.006800
+success, new time:   0.006900
+required     2 Newton iterations for residual 8.505219e-07
+--------------------------------------------------------------------------------
+timestep / time:    69 /   0.006900
+success, new time:   0.007000
+required     2 Newton iterations for residual 8.815220e-07
+--------------------------------------------------------------------------------
+timestep / time:    70 /   0.007000
+success, new time:   0.007100
+required     2 Newton iterations for residual 7.696441e-07
+--------------------------------------------------------------------------------
+timestep / time:    71 /   0.007100
+success, new time:   0.007200
+required     2 Newton iterations for residual 6.626564e-07
+--------------------------------------------------------------------------------
+timestep / time:    72 /   0.007200
+success, new time:   0.007300
+required     2 Newton iterations for residual 7.421435e-07
+--------------------------------------------------------------------------------
+timestep / time:    73 /   0.007300
+success, new time:   0.007400
+required     2 Newton iterations for residual 7.187568e-07
+--------------------------------------------------------------------------------
+timestep / time:    74 /   0.007400
+success, new time:   0.007500
+required     2 Newton iterations for residual 5.548394e-07
+--------------------------------------------------------------------------------
+timestep / time:    75 /   0.007500
+success, new time:   0.007600
+required     2 Newton iterations for residual 6.298189e-07
+--------------------------------------------------------------------------------
+timestep / time:    76 /   0.007600
+success, new time:   0.007700
+required     2 Newton iterations for residual 6.010754e-07
+--------------------------------------------------------------------------------
+timestep / time:    77 /   0.007700
+success, new time:   0.007800
+required     2 Newton iterations for residual 6.030521e-07
+--------------------------------------------------------------------------------
+timestep / time:    78 /   0.007800
+success, new time:   0.007900
+required     2 Newton iterations for residual 5.631326e-07
+--------------------------------------------------------------------------------
+timestep / time:    79 /   0.007900
+success, new time:   0.008000
+required     2 Newton iterations for residual 5.714105e-07
+--------------------------------------------------------------------------------
+timestep / time:    80 /   0.008000
+success, new time:   0.008100
+required     2 Newton iterations for residual 5.362291e-07
+--------------------------------------------------------------------------------
+timestep / time:    81 /   0.008100
+success, new time:   0.008200
+required     2 Newton iterations for residual 4.858625e-07
+--------------------------------------------------------------------------------
+timestep / time:    82 /   0.008200
+success, new time:   0.008300
+required     2 Newton iterations for residual 9.718052e-07
+--------------------------------------------------------------------------------
+timestep / time:    83 /   0.008300
+success, new time:   0.008400
+required     2 Newton iterations for residual 8.292375e-07
+--------------------------------------------------------------------------------
+timestep / time:    84 /   0.008400
+success, new time:   0.008500
+required     2 Newton iterations for residual 8.551840e-07
+--------------------------------------------------------------------------------
+timestep / time:    85 /   0.008500
+success, new time:   0.008600
+required     2 Newton iterations for residual 8.416883e-07
+--------------------------------------------------------------------------------
+timestep / time:    86 /   0.008600
+success, new time:   0.008700
+required     2 Newton iterations for residual 7.343539e-07
+--------------------------------------------------------------------------------
+timestep / time:    87 /   0.008700
+success, new time:   0.008800
+required     2 Newton iterations for residual 6.565818e-07
+--------------------------------------------------------------------------------
+timestep / time:    88 /   0.008800
+success, new time:   0.008900
+required     2 Newton iterations for residual 6.446112e-07
+--------------------------------------------------------------------------------
+timestep / time:    89 /   0.008900
+success, new time:   0.009000
+required     2 Newton iterations for residual 7.473694e-07
+--------------------------------------------------------------------------------
+timestep / time:    90 /   0.009000
+success, new time:   0.009100
+required     2 Newton iterations for residual 6.345500e-07
+--------------------------------------------------------------------------------
+timestep / time:    91 /   0.009100
+success, new time:   0.009200
+required     2 Newton iterations for residual 6.654161e-07
+--------------------------------------------------------------------------------
+timestep / time:    92 /   0.009200
+success, new time:   0.009300
+required     2 Newton iterations for residual 5.909470e-07
+--------------------------------------------------------------------------------
+timestep / time:    93 /   0.009300
+success, new time:   0.009400
+required     2 Newton iterations for residual 8.859151e-07
+--------------------------------------------------------------------------------
+timestep / time:    94 /   0.009400
+success, new time:   0.009500
+required     2 Newton iterations for residual 5.506465e-07
+--------------------------------------------------------------------------------
+timestep / time:    95 /   0.009500
+success, new time:   0.009600
+required     2 Newton iterations for residual 5.033023e-07
+--------------------------------------------------------------------------------
+timestep / time:    96 /   0.009600
+success, new time:   0.009700
+required     2 Newton iterations for residual 9.020633e-07
+--------------------------------------------------------------------------------
+timestep / time:    97 /   0.009700
+success, new time:   0.009800
+required     2 Newton iterations for residual 4.752801e-07
+--------------------------------------------------------------------------------
+timestep / time:    98 /   0.009800
+success, new time:   0.009900
+required     2 Newton iterations for residual 9.852822e-07
+--------------------------------------------------------------------------------
+timestep / time:    99 /   0.009900
+success, new time:   0.010000
+required     2 Newton iterations for residual 7.801611e-07
+--------------------------------------------------------------------------------
+simulation took 1.000460 seconds
+2426 conjugate gradient iterations: at rate of 2424.883506 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===

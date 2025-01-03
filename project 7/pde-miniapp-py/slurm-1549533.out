@@ -1,0 +1,729 @@
+Model name:          Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+size	np	Newton	CG	time
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+1 processes decomposed into a 1 x 1 Cartesian topology
+icsnode17 rank   0 /   1 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :  -1 local size 512 x 512
+simulation took 43.705138 seconds
+5566 conjugate gradient iterations: at rate of 127.353447 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+2 processes decomposed into a 2 x 1 Cartesian topology
+icsnode17 rank   0 /   2 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size 256 x 512
+icsnode17 rank   1 /   2 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :   0 local size 256 x 512
+simulation took 23.357399 seconds
+5561 conjugate gradient iterations: at rate of 238.083016 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+3 processes decomposed into a 3 x 1 Cartesian topology
+icsnode17 rank   0 /   3 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size 170 x 512
+icsnode17 rank   1 /   3 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size 170 x 512
+icsnode17 rank   2 /   3 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :   1 local size 172 x 512
+simulation took 17.170253 seconds
+5568 conjugate gradient iterations: at rate of 324.281760 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+4 processes decomposed into a 2 x 2 Cartesian topology
+icsnode17 rank   0 /   4 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size 256 x 256
+icsnode17 rank   1 /   4 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size 256 x 256
+icsnode17 rank   2 /   4 : (  1,  0) neigh N:S   3 :  -1 neigh E:W  -1 :   0 local size 256 x 256
+icsnode17 rank   3 /   4 : (  1,  1) neigh N:S  -1 :   2 neigh E:W  -1 :   1 local size 256 x 256
+simulation took 12.919937 seconds
+5558 conjugate gradient iterations: at rate of 430.187850 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+5 processes decomposed into a 5 x 1 Cartesian topology
+icsnode17 rank   0 /   5 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size 102 x 512
+icsnode17 rank   1 /   5 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size 102 x 512
+icsnode17 rank   2 /   5 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size 102 x 512
+icsnode17 rank   3 /   5 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size 102 x 512
+icsnode17 rank   4 /   5 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :   3 local size 104 x 512
+simulation took 11.674891 seconds
+5557 conjugate gradient iterations: at rate of 475.978761 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+6 processes decomposed into a 3 x 2 Cartesian topology
+icsnode17 rank   0 /   6 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size 170 x 256
+icsnode17 rank   1 /   6 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size 170 x 256
+icsnode17 rank   2 /   6 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size 170 x 256
+icsnode17 rank   3 /   6 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size 170 x 256
+icsnode17 rank   4 /   6 : (  2,  0) neigh N:S   5 :  -1 neigh E:W  -1 :   2 local size 172 x 256
+icsnode17 rank   5 /   6 : (  2,  1) neigh N:S  -1 :   4 neigh E:W  -1 :   3 local size 172 x 256
+simulation took 9.208142 seconds
+5561 conjugate gradient iterations: at rate of 603.922071 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+7 processes decomposed into a 7 x 1 Cartesian topology
+icsnode17 rank   0 /   7 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  73 x 512
+icsnode17 rank   1 /   7 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  73 x 512
+icsnode17 rank   2 /   7 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  73 x 512
+icsnode17 rank   3 /   7 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  73 x 512
+icsnode17 rank   4 /   7 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  73 x 512
+icsnode17 rank   5 /   7 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  73 x 512
+icsnode17 rank   6 /   7 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :   5 local size  74 x 512
+simulation took 8.623623 seconds
+5554 conjugate gradient iterations: at rate of 644.044864 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+8 processes decomposed into a 4 x 2 Cartesian topology
+icsnode17 rank   0 /   8 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size 128 x 256
+icsnode17 rank   1 /   8 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size 128 x 256
+icsnode17 rank   2 /   8 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size 128 x 256
+icsnode17 rank   3 /   8 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size 128 x 256
+icsnode17 rank   4 /   8 : (  2,  0) neigh N:S   5 :  -1 neigh E:W   6 :   2 local size 128 x 256
+icsnode17 rank   5 /   8 : (  2,  1) neigh N:S  -1 :   4 neigh E:W   7 :   3 local size 128 x 256
+icsnode17 rank   6 /   8 : (  3,  0) neigh N:S   7 :  -1 neigh E:W  -1 :   4 local size 128 x 256
+icsnode17 rank   7 /   8 : (  3,  1) neigh N:S  -1 :   6 neigh E:W  -1 :   5 local size 128 x 256
+simulation took 7.893235 seconds
+5565 conjugate gradient iterations: at rate of 705.034107 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+9 processes decomposed into a 3 x 3 Cartesian topology
+icsnode17 rank   0 /   9 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size 170 x 170
+icsnode17 rank   1 /   9 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size 170 x 170
+icsnode17 rank   2 /   9 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size 170 x 172
+icsnode17 rank   3 /   9 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size 170 x 170
+icsnode17 rank   4 /   9 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size 170 x 170
+icsnode17 rank   5 /   9 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size 170 x 172
+icsnode17 rank   6 /   9 : (  2,  0) neigh N:S   7 :  -1 neigh E:W  -1 :   3 local size 172 x 170
+icsnode17 rank   7 /   9 : (  2,  1) neigh N:S   8 :   6 neigh E:W  -1 :   4 local size 172 x 170
+icsnode17 rank   8 /   9 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  -1 :   5 local size 172 x 172
+simulation took 7.121117 seconds
+5560 conjugate gradient iterations: at rate of 780.776436 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+10 processes decomposed into a 5 x 2 Cartesian topology
+icsnode17 rank   0 /  10 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size 102 x 256
+icsnode17 rank   1 /  10 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size 102 x 256
+icsnode17 rank   2 /  10 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size 102 x 256
+icsnode17 rank   3 /  10 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size 102 x 256
+icsnode17 rank   4 /  10 : (  2,  0) neigh N:S   5 :  -1 neigh E:W   6 :   2 local size 102 x 256
+icsnode17 rank   5 /  10 : (  2,  1) neigh N:S  -1 :   4 neigh E:W   7 :   3 local size 102 x 256
+icsnode17 rank   6 /  10 : (  3,  0) neigh N:S   7 :  -1 neigh E:W   8 :   4 local size 102 x 256
+icsnode17 rank   7 /  10 : (  3,  1) neigh N:S  -1 :   6 neigh E:W   9 :   5 local size 102 x 256
+icsnode17 rank   8 /  10 : (  4,  0) neigh N:S   9 :  -1 neigh E:W  -1 :   6 local size 104 x 256
+icsnode17 rank   9 /  10 : (  4,  1) neigh N:S  -1 :   8 neigh E:W  -1 :   7 local size 104 x 256
+simulation took 6.515369 seconds
+5559 conjugate gradient iterations: at rate of 853.213332 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+11 processes decomposed into a 11 x 1 Cartesian topology
+icsnode17 rank   0 /  11 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  46 x 512
+icsnode17 rank   1 /  11 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  46 x 512
+icsnode17 rank   2 /  11 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  46 x 512
+icsnode17 rank   3 /  11 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  46 x 512
+icsnode17 rank   4 /  11 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  46 x 512
+icsnode17 rank   5 /  11 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  46 x 512
+icsnode17 rank   6 /  11 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W   7 :   5 local size  46 x 512
+icsnode17 rank   7 /  11 : (  7,  0) neigh N:S  -1 :  -1 neigh E:W   8 :   6 local size  46 x 512
+icsnode17 rank   8 /  11 : (  8,  0) neigh N:S  -1 :  -1 neigh E:W   9 :   7 local size  46 x 512
+icsnode17 rank   9 /  11 : (  9,  0) neigh N:S  -1 :  -1 neigh E:W  10 :   8 local size  46 x 512
+icsnode17 rank  10 /  11 : ( 10,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :   9 local size  52 x 512
+simulation took 6.127071 seconds
+5562 conjugate gradient iterations: at rate of 907.774765 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+12 processes decomposed into a 4 x 3 Cartesian topology
+icsnode17 rank   0 /  12 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size 128 x 170
+icsnode17 rank   1 /  12 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size 128 x 170
+icsnode17 rank   2 /  12 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size 128 x 172
+icsnode17 rank   3 /  12 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size 128 x 170
+icsnode17 rank   4 /  12 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size 128 x 170
+icsnode17 rank   5 /  12 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size 128 x 172
+icsnode17 rank   6 /  12 : (  2,  0) neigh N:S   7 :  -1 neigh E:W   9 :   3 local size 128 x 170
+icsnode17 rank   7 /  12 : (  2,  1) neigh N:S   8 :   6 neigh E:W  10 :   4 local size 128 x 170
+icsnode17 rank   8 /  12 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  11 :   5 local size 128 x 172
+icsnode17 rank   9 /  12 : (  3,  0) neigh N:S  10 :  -1 neigh E:W  -1 :   6 local size 128 x 170
+icsnode17 rank  10 /  12 : (  3,  1) neigh N:S  11 :   9 neigh E:W  -1 :   7 local size 128 x 170
+icsnode17 rank  11 /  12 : (  3,  2) neigh N:S  -1 :  10 neigh E:W  -1 :   8 local size 128 x 172
+simulation took 5.790770 seconds
+5563 conjugate gradient iterations: at rate of 960.666686 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+13 processes decomposed into a 13 x 1 Cartesian topology
+icsnode17 rank   0 /  13 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  39 x 512
+icsnode17 rank   1 /  13 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  39 x 512
+icsnode17 rank   2 /  13 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  39 x 512
+icsnode17 rank   3 /  13 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  39 x 512
+icsnode17 rank   4 /  13 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  39 x 512
+icsnode17 rank   5 /  13 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  39 x 512
+icsnode17 rank   6 /  13 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W   7 :   5 local size  39 x 512
+icsnode17 rank   7 /  13 : (  7,  0) neigh N:S  -1 :  -1 neigh E:W   8 :   6 local size  39 x 512
+icsnode17 rank   8 /  13 : (  8,  0) neigh N:S  -1 :  -1 neigh E:W   9 :   7 local size  39 x 512
+icsnode17 rank   9 /  13 : (  9,  0) neigh N:S  -1 :  -1 neigh E:W  10 :   8 local size  39 x 512
+icsnode17 rank  10 /  13 : ( 10,  0) neigh N:S  -1 :  -1 neigh E:W  11 :   9 local size  39 x 512
+icsnode17 rank  11 /  13 : ( 11,  0) neigh N:S  -1 :  -1 neigh E:W  12 :  10 local size  39 x 512
+icsnode17 rank  12 /  13 : ( 12,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :  11 local size  44 x 512
+simulation took 5.622257 seconds
+5561 conjugate gradient iterations: at rate of 989.104520 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+14 processes decomposed into a 7 x 2 Cartesian topology
+icsnode17 rank   0 /  14 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size  73 x 256
+icsnode17 rank   1 /  14 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size  73 x 256
+icsnode17 rank   2 /  14 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size  73 x 256
+icsnode17 rank   3 /  14 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size  73 x 256
+icsnode17 rank   4 /  14 : (  2,  0) neigh N:S   5 :  -1 neigh E:W   6 :   2 local size  73 x 256
+icsnode17 rank   5 /  14 : (  2,  1) neigh N:S  -1 :   4 neigh E:W   7 :   3 local size  73 x 256
+icsnode17 rank   6 /  14 : (  3,  0) neigh N:S   7 :  -1 neigh E:W   8 :   4 local size  73 x 256
+icsnode17 rank   7 /  14 : (  3,  1) neigh N:S  -1 :   6 neigh E:W   9 :   5 local size  73 x 256
+icsnode17 rank   8 /  14 : (  4,  0) neigh N:S   9 :  -1 neigh E:W  10 :   6 local size  73 x 256
+icsnode17 rank   9 /  14 : (  4,  1) neigh N:S  -1 :   8 neigh E:W  11 :   7 local size  73 x 256
+icsnode17 rank  10 /  14 : (  5,  0) neigh N:S  11 :  -1 neigh E:W  12 :   8 local size  73 x 256
+icsnode17 rank  11 /  14 : (  5,  1) neigh N:S  -1 :  10 neigh E:W  13 :   9 local size  73 x 256
+icsnode17 rank  12 /  14 : (  6,  0) neigh N:S  13 :  -1 neigh E:W  -1 :  10 local size  74 x 256
+icsnode17 rank  13 /  14 : (  6,  1) neigh N:S  -1 :  12 neigh E:W  -1 :  11 local size  74 x 256
+simulation took 6.513096 seconds
+5565 conjugate gradient iterations: at rate of 854.432323 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+15 processes decomposed into a 5 x 3 Cartesian topology
+icsnode17 rank   0 /  15 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size 102 x 170
+icsnode17 rank   1 /  15 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size 102 x 170
+icsnode17 rank   2 /  15 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size 102 x 172
+icsnode17 rank   3 /  15 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size 102 x 170
+icsnode17 rank   4 /  15 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size 102 x 170
+icsnode17 rank   5 /  15 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size 102 x 172
+icsnode17 rank   6 /  15 : (  2,  0) neigh N:S   7 :  -1 neigh E:W   9 :   3 local size 102 x 170
+icsnode17 rank   7 /  15 : (  2,  1) neigh N:S   8 :   6 neigh E:W  10 :   4 local size 102 x 170
+icsnode17 rank   8 /  15 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  11 :   5 local size 102 x 172
+icsnode17 rank   9 /  15 : (  3,  0) neigh N:S  10 :  -1 neigh E:W  12 :   6 local size 102 x 170
+icsnode17 rank  10 /  15 : (  3,  1) neigh N:S  11 :   9 neigh E:W  13 :   7 local size 102 x 170
+icsnode17 rank  11 /  15 : (  3,  2) neigh N:S  -1 :  10 neigh E:W  14 :   8 local size 102 x 172
+icsnode17 rank  12 /  15 : (  4,  0) neigh N:S  13 :  -1 neigh E:W  -1 :   9 local size 104 x 170
+icsnode17 rank  13 /  15 : (  4,  1) neigh N:S  14 :  12 neigh E:W  -1 :  10 local size 104 x 170
+icsnode17 rank  14 /  15 : (  4,  2) neigh N:S  -1 :  13 neigh E:W  -1 :  11 local size 104 x 172
+simulation took 19.077167 seconds
+5566 conjugate gradient iterations: at rate of 291.762394 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+16 processes decomposed into a 4 x 4 Cartesian topology
+icsnode17 rank   0 /  16 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   4 :  -1 local size 128 x 128
+icsnode17 rank   1 /  16 : (  0,  1) neigh N:S   2 :   0 neigh E:W   5 :  -1 local size 128 x 128
+icsnode17 rank   2 /  16 : (  0,  2) neigh N:S   3 :   1 neigh E:W   6 :  -1 local size 128 x 128
+icsnode17 rank   3 /  16 : (  0,  3) neigh N:S  -1 :   2 neigh E:W   7 :  -1 local size 128 x 128
+icsnode17 rank   4 /  16 : (  1,  0) neigh N:S   5 :  -1 neigh E:W   8 :   0 local size 128 x 128
+icsnode17 rank   5 /  16 : (  1,  1) neigh N:S   6 :   4 neigh E:W   9 :   1 local size 128 x 128
+icsnode17 rank   6 /  16 : (  1,  2) neigh N:S   7 :   5 neigh E:W  10 :   2 local size 128 x 128
+icsnode17 rank   7 /  16 : (  1,  3) neigh N:S  -1 :   6 neigh E:W  11 :   3 local size 128 x 128
+icsnode17 rank   8 /  16 : (  2,  0) neigh N:S   9 :  -1 neigh E:W  12 :   4 local size 128 x 128
+icsnode17 rank   9 /  16 : (  2,  1) neigh N:S  10 :   8 neigh E:W  13 :   5 local size 128 x 128
+icsnode17 rank  10 /  16 : (  2,  2) neigh N:S  11 :   9 neigh E:W  14 :   6 local size 128 x 128
+icsnode17 rank  11 /  16 : (  2,  3) neigh N:S  -1 :  10 neigh E:W  15 :   7 local size 128 x 128
+icsnode17 rank  12 /  16 : (  3,  0) neigh N:S  13 :  -1 neigh E:W  -1 :   8 local size 128 x 128
+icsnode17 rank  13 /  16 : (  3,  1) neigh N:S  14 :  12 neigh E:W  -1 :   9 local size 128 x 128
+icsnode17 rank  14 /  16 : (  3,  2) neigh N:S  15 :  13 neigh E:W  -1 :  10 local size 128 x 128
+icsnode17 rank  15 /  16 : (  3,  3) neigh N:S  -1 :  14 neigh E:W  -1 :  11 local size 128 x 128
+simulation took 98.410937 seconds
+5558 conjugate gradient iterations: at rate of 56.477462 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+17 processes decomposed into a 17 x 1 Cartesian topology
+icsnode17 rank   0 /  17 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  30 x 512
+icsnode17 rank   1 /  17 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  30 x 512
+icsnode17 rank   2 /  17 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  30 x 512
+icsnode17 rank   3 /  17 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  30 x 512
+icsnode17 rank   4 /  17 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  30 x 512
+icsnode17 rank   5 /  17 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  30 x 512
+icsnode17 rank   6 /  17 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W   7 :   5 local size  30 x 512
+icsnode17 rank   7 /  17 : (  7,  0) neigh N:S  -1 :  -1 neigh E:W   8 :   6 local size  30 x 512
+icsnode17 rank   8 /  17 : (  8,  0) neigh N:S  -1 :  -1 neigh E:W   9 :   7 local size  30 x 512
+icsnode17 rank   9 /  17 : (  9,  0) neigh N:S  -1 :  -1 neigh E:W  10 :   8 local size  30 x 512
+icsnode17 rank  10 /  17 : ( 10,  0) neigh N:S  -1 :  -1 neigh E:W  11 :   9 local size  30 x 512
+icsnode17 rank  11 /  17 : ( 11,  0) neigh N:S  -1 :  -1 neigh E:W  12 :  10 local size  30 x 512
+icsnode17 rank  12 /  17 : ( 12,  0) neigh N:S  -1 :  -1 neigh E:W  13 :  11 local size  30 x 512
+icsnode17 rank  13 /  17 : ( 13,  0) neigh N:S  -1 :  -1 neigh E:W  14 :  12 local size  30 x 512
+icsnode17 rank  14 /  17 : ( 14,  0) neigh N:S  -1 :  -1 neigh E:W  15 :  13 local size  30 x 512
+icsnode17 rank  15 /  17 : ( 15,  0) neigh N:S  -1 :  -1 neigh E:W  16 :  14 local size  30 x 512
+icsnode17 rank  16 /  17 : ( 16,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :  15 local size  32 x 512
+simulation took 170.962989 seconds
+5548 conjugate gradient iterations: at rate of 32.451468 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+18 processes decomposed into a 6 x 3 Cartesian topology
+icsnode17 rank   0 /  18 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size  85 x 170
+icsnode17 rank   1 /  18 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size  85 x 170
+icsnode17 rank   2 /  18 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size  85 x 172
+icsnode17 rank   3 /  18 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size  85 x 170
+icsnode17 rank   4 /  18 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size  85 x 170
+icsnode17 rank   5 /  18 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size  85 x 172
+icsnode17 rank   6 /  18 : (  2,  0) neigh N:S   7 :  -1 neigh E:W   9 :   3 local size  85 x 170
+icsnode17 rank   7 /  18 : (  2,  1) neigh N:S   8 :   6 neigh E:W  10 :   4 local size  85 x 170
+icsnode17 rank   8 /  18 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  11 :   5 local size  85 x 172
+icsnode17 rank   9 /  18 : (  3,  0) neigh N:S  10 :  -1 neigh E:W  12 :   6 local size  85 x 170
+icsnode17 rank  10 /  18 : (  3,  1) neigh N:S  11 :   9 neigh E:W  13 :   7 local size  85 x 170
+icsnode17 rank  11 /  18 : (  3,  2) neigh N:S  -1 :  10 neigh E:W  14 :   8 local size  85 x 172
+icsnode17 rank  12 /  18 : (  4,  0) neigh N:S  13 :  -1 neigh E:W  15 :   9 local size  85 x 170
+icsnode17 rank  13 /  18 : (  4,  1) neigh N:S  14 :  12 neigh E:W  16 :  10 local size  85 x 170
+icsnode17 rank  14 /  18 : (  4,  2) neigh N:S  -1 :  13 neigh E:W  17 :  11 local size  85 x 172
+icsnode17 rank  15 /  18 : (  5,  0) neigh N:S  16 :  -1 neigh E:W  -1 :  12 local size  87 x 170
+icsnode17 rank  16 /  18 : (  5,  1) neigh N:S  17 :  15 neigh E:W  -1 :  13 local size  87 x 170
+icsnode17 rank  17 /  18 : (  5,  2) neigh N:S  -1 :  16 neigh E:W  -1 :  14 local size  87 x 172
+simulation took 249.430708 seconds
+5557 conjugate gradient iterations: at rate of 22.278732 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+19 processes decomposed into a 19 x 1 Cartesian topology
+icsnode17 rank   0 /  19 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  26 x 512
+icsnode17 rank   1 /  19 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  26 x 512
+icsnode17 rank   2 /  19 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  26 x 512
+icsnode17 rank   3 /  19 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  26 x 512
+icsnode17 rank   4 /  19 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  26 x 512
+icsnode17 rank   5 /  19 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  26 x 512
+icsnode17 rank   6 /  19 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W   7 :   5 local size  26 x 512
+icsnode17 rank   7 /  19 : (  7,  0) neigh N:S  -1 :  -1 neigh E:W   8 :   6 local size  26 x 512
+icsnode17 rank   8 /  19 : (  8,  0) neigh N:S  -1 :  -1 neigh E:W   9 :   7 local size  26 x 512
+icsnode17 rank   9 /  19 : (  9,  0) neigh N:S  -1 :  -1 neigh E:W  10 :   8 local size  26 x 512
+icsnode17 rank  10 /  19 : ( 10,  0) neigh N:S  -1 :  -1 neigh E:W  11 :   9 local size  26 x 512
+icsnode17 rank  11 /  19 : ( 11,  0) neigh N:S  -1 :  -1 neigh E:W  12 :  10 local size  26 x 512
+icsnode17 rank  12 /  19 : ( 12,  0) neigh N:S  -1 :  -1 neigh E:W  13 :  11 local size  26 x 512
+icsnode17 rank  13 /  19 : ( 13,  0) neigh N:S  -1 :  -1 neigh E:W  14 :  12 local size  26 x 512
+icsnode17 rank  14 /  19 : ( 14,  0) neigh N:S  -1 :  -1 neigh E:W  15 :  13 local size  26 x 512
+icsnode17 rank  15 /  19 : ( 15,  0) neigh N:S  -1 :  -1 neigh E:W  16 :  14 local size  26 x 512
+icsnode17 rank  16 /  19 : ( 16,  0) neigh N:S  -1 :  -1 neigh E:W  17 :  15 local size  26 x 512
+icsnode17 rank  17 /  19 : ( 17,  0) neigh N:S  -1 :  -1 neigh E:W  18 :  16 local size  26 x 512
+icsnode17 rank  18 /  19 : ( 18,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :  17 local size  44 x 512
+simulation took 259.799134 seconds
+5561 conjugate gradient iterations: at rate of 21.404998 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+20 processes decomposed into a 5 x 4 Cartesian topology
+icsnode17 rank   0 /  20 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   4 :  -1 local size 102 x 128
+icsnode17 rank   1 /  20 : (  0,  1) neigh N:S   2 :   0 neigh E:W   5 :  -1 local size 102 x 128
+icsnode17 rank   2 /  20 : (  0,  2) neigh N:S   3 :   1 neigh E:W   6 :  -1 local size 102 x 128
+icsnode17 rank   3 /  20 : (  0,  3) neigh N:S  -1 :   2 neigh E:W   7 :  -1 local size 102 x 128
+icsnode17 rank   4 /  20 : (  1,  0) neigh N:S   5 :  -1 neigh E:W   8 :   0 local size 102 x 128
+icsnode17 rank   5 /  20 : (  1,  1) neigh N:S   6 :   4 neigh E:W   9 :   1 local size 102 x 128
+icsnode17 rank   6 /  20 : (  1,  2) neigh N:S   7 :   5 neigh E:W  10 :   2 local size 102 x 128
+icsnode17 rank   7 /  20 : (  1,  3) neigh N:S  -1 :   6 neigh E:W  11 :   3 local size 102 x 128
+icsnode17 rank   8 /  20 : (  2,  0) neigh N:S   9 :  -1 neigh E:W  12 :   4 local size 102 x 128
+icsnode17 rank   9 /  20 : (  2,  1) neigh N:S  10 :   8 neigh E:W  13 :   5 local size 102 x 128
+icsnode17 rank  10 /  20 : (  2,  2) neigh N:S  11 :   9 neigh E:W  14 :   6 local size 102 x 128
+icsnode17 rank  11 /  20 : (  2,  3) neigh N:S  -1 :  10 neigh E:W  15 :   7 local size 102 x 128
+icsnode17 rank  12 /  20 : (  3,  0) neigh N:S  13 :  -1 neigh E:W  16 :   8 local size 102 x 128
+icsnode17 rank  13 /  20 : (  3,  1) neigh N:S  14 :  12 neigh E:W  17 :   9 local size 102 x 128
+icsnode17 rank  14 /  20 : (  3,  2) neigh N:S  15 :  13 neigh E:W  18 :  10 local size 102 x 128
+icsnode17 rank  15 /  20 : (  3,  3) neigh N:S  -1 :  14 neigh E:W  19 :  11 local size 102 x 128
+icsnode17 rank  16 /  20 : (  4,  0) neigh N:S  17 :  -1 neigh E:W  -1 :  12 local size 104 x 128
+icsnode17 rank  17 /  20 : (  4,  1) neigh N:S  18 :  16 neigh E:W  -1 :  13 local size 104 x 128
+icsnode17 rank  18 /  20 : (  4,  2) neigh N:S  19 :  17 neigh E:W  -1 :  14 local size 104 x 128
+icsnode17 rank  19 /  20 : (  4,  3) neigh N:S  -1 :  18 neigh E:W  -1 :  15 local size 104 x 128
+simulation took 302.341967 seconds
+5566 conjugate gradient iterations: at rate of 18.409618 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+21 processes decomposed into a 7 x 3 Cartesian topology
+icsnode17 rank   0 /  21 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size  73 x 170
+icsnode17 rank   1 /  21 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size  73 x 170
+icsnode17 rank   2 /  21 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size  73 x 172
+icsnode17 rank   3 /  21 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size  73 x 170
+icsnode17 rank   4 /  21 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size  73 x 170
+icsnode17 rank   5 /  21 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size  73 x 172
+icsnode17 rank   6 /  21 : (  2,  0) neigh N:S   7 :  -1 neigh E:W   9 :   3 local size  73 x 170
+icsnode17 rank   7 /  21 : (  2,  1) neigh N:S   8 :   6 neigh E:W  10 :   4 local size  73 x 170
+icsnode17 rank   8 /  21 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  11 :   5 local size  73 x 172
+icsnode17 rank   9 /  21 : (  3,  0) neigh N:S  10 :  -1 neigh E:W  12 :   6 local size  73 x 170
+icsnode17 rank  10 /  21 : (  3,  1) neigh N:S  11 :   9 neigh E:W  13 :   7 local size  73 x 170
+icsnode17 rank  11 /  21 : (  3,  2) neigh N:S  -1 :  10 neigh E:W  14 :   8 local size  73 x 172
+icsnode17 rank  12 /  21 : (  4,  0) neigh N:S  13 :  -1 neigh E:W  15 :   9 local size  73 x 170
+icsnode17 rank  13 /  21 : (  4,  1) neigh N:S  14 :  12 neigh E:W  16 :  10 local size  73 x 170
+icsnode17 rank  14 /  21 : (  4,  2) neigh N:S  -1 :  13 neigh E:W  17 :  11 local size  73 x 172
+icsnode17 rank  15 /  21 : (  5,  0) neigh N:S  16 :  -1 neigh E:W  18 :  12 local size  73 x 170
+icsnode17 rank  16 /  21 : (  5,  1) neigh N:S  17 :  15 neigh E:W  19 :  13 local size  73 x 170
+icsnode17 rank  17 /  21 : (  5,  2) neigh N:S  -1 :  16 neigh E:W  20 :  14 local size  73 x 172
+icsnode17 rank  18 /  21 : (  6,  0) neigh N:S  19 :  -1 neigh E:W  -1 :  15 local size  74 x 170
+icsnode17 rank  19 /  21 : (  6,  1) neigh N:S  20 :  18 neigh E:W  -1 :  16 local size  74 x 170
+icsnode17 rank  20 /  21 : (  6,  2) neigh N:S  -1 :  19 neigh E:W  -1 :  17 local size  74 x 172
+simulation took 308.656750 seconds
+5566 conjugate gradient iterations: at rate of 18.032977 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+22 processes decomposed into a 11 x 2 Cartesian topology
+icsnode17 rank   0 /  22 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size  46 x 256
+icsnode17 rank   1 /  22 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size  46 x 256
+icsnode17 rank   2 /  22 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size  46 x 256
+icsnode17 rank   3 /  22 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size  46 x 256
+icsnode17 rank   4 /  22 : (  2,  0) neigh N:S   5 :  -1 neigh E:W   6 :   2 local size  46 x 256
+icsnode17 rank   5 /  22 : (  2,  1) neigh N:S  -1 :   4 neigh E:W   7 :   3 local size  46 x 256
+icsnode17 rank   6 /  22 : (  3,  0) neigh N:S   7 :  -1 neigh E:W   8 :   4 local size  46 x 256
+icsnode17 rank   7 /  22 : (  3,  1) neigh N:S  -1 :   6 neigh E:W   9 :   5 local size  46 x 256
+icsnode17 rank   8 /  22 : (  4,  0) neigh N:S   9 :  -1 neigh E:W  10 :   6 local size  46 x 256
+icsnode17 rank   9 /  22 : (  4,  1) neigh N:S  -1 :   8 neigh E:W  11 :   7 local size  46 x 256
+icsnode17 rank  10 /  22 : (  5,  0) neigh N:S  11 :  -1 neigh E:W  12 :   8 local size  46 x 256
+icsnode17 rank  11 /  22 : (  5,  1) neigh N:S  -1 :  10 neigh E:W  13 :   9 local size  46 x 256
+icsnode17 rank  12 /  22 : (  6,  0) neigh N:S  13 :  -1 neigh E:W  14 :  10 local size  46 x 256
+icsnode17 rank  13 /  22 : (  6,  1) neigh N:S  -1 :  12 neigh E:W  15 :  11 local size  46 x 256
+icsnode17 rank  14 /  22 : (  7,  0) neigh N:S  15 :  -1 neigh E:W  16 :  12 local size  46 x 256
+icsnode17 rank  15 /  22 : (  7,  1) neigh N:S  -1 :  14 neigh E:W  17 :  13 local size  46 x 256
+icsnode17 rank  16 /  22 : (  8,  0) neigh N:S  17 :  -1 neigh E:W  18 :  14 local size  46 x 256
+icsnode17 rank  17 /  22 : (  8,  1) neigh N:S  -1 :  16 neigh E:W  19 :  15 local size  46 x 256
+icsnode17 rank  18 /  22 : (  9,  0) neigh N:S  19 :  -1 neigh E:W  20 :  16 local size  46 x 256
+icsnode17 rank  19 /  22 : (  9,  1) neigh N:S  -1 :  18 neigh E:W  21 :  17 local size  46 x 256
+icsnode17 rank  20 /  22 : ( 10,  0) neigh N:S  21 :  -1 neigh E:W  -1 :  18 local size  52 x 256
+icsnode17 rank  21 /  22 : ( 10,  1) neigh N:S  -1 :  20 neigh E:W  -1 :  19 local size  52 x 256
+simulation took 334.173614 seconds
+5559 conjugate gradient iterations: at rate of 16.635066 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+23 processes decomposed into a 23 x 1 Cartesian topology
+icsnode17 rank   0 /  23 : (  0,  0) neigh N:S  -1 :  -1 neigh E:W   1 :  -1 local size  22 x 512
+icsnode17 rank   1 /  23 : (  1,  0) neigh N:S  -1 :  -1 neigh E:W   2 :   0 local size  22 x 512
+icsnode17 rank   2 /  23 : (  2,  0) neigh N:S  -1 :  -1 neigh E:W   3 :   1 local size  22 x 512
+icsnode17 rank   3 /  23 : (  3,  0) neigh N:S  -1 :  -1 neigh E:W   4 :   2 local size  22 x 512
+icsnode17 rank   4 /  23 : (  4,  0) neigh N:S  -1 :  -1 neigh E:W   5 :   3 local size  22 x 512
+icsnode17 rank   5 /  23 : (  5,  0) neigh N:S  -1 :  -1 neigh E:W   6 :   4 local size  22 x 512
+icsnode17 rank   6 /  23 : (  6,  0) neigh N:S  -1 :  -1 neigh E:W   7 :   5 local size  22 x 512
+icsnode17 rank   7 /  23 : (  7,  0) neigh N:S  -1 :  -1 neigh E:W   8 :   6 local size  22 x 512
+icsnode17 rank   8 /  23 : (  8,  0) neigh N:S  -1 :  -1 neigh E:W   9 :   7 local size  22 x 512
+icsnode17 rank   9 /  23 : (  9,  0) neigh N:S  -1 :  -1 neigh E:W  10 :   8 local size  22 x 512
+icsnode17 rank  10 /  23 : ( 10,  0) neigh N:S  -1 :  -1 neigh E:W  11 :   9 local size  22 x 512
+icsnode17 rank  11 /  23 : ( 11,  0) neigh N:S  -1 :  -1 neigh E:W  12 :  10 local size  22 x 512
+icsnode17 rank  12 /  23 : ( 12,  0) neigh N:S  -1 :  -1 neigh E:W  13 :  11 local size  22 x 512
+icsnode17 rank  13 /  23 : ( 13,  0) neigh N:S  -1 :  -1 neigh E:W  14 :  12 local size  22 x 512
+icsnode17 rank  14 /  23 : ( 14,  0) neigh N:S  -1 :  -1 neigh E:W  15 :  13 local size  22 x 512
+icsnode17 rank  15 /  23 : ( 15,  0) neigh N:S  -1 :  -1 neigh E:W  16 :  14 local size  22 x 512
+icsnode17 rank  16 /  23 : ( 16,  0) neigh N:S  -1 :  -1 neigh E:W  17 :  15 local size  22 x 512
+icsnode17 rank  17 /  23 : ( 17,  0) neigh N:S  -1 :  -1 neigh E:W  18 :  16 local size  22 x 512
+icsnode17 rank  18 /  23 : ( 18,  0) neigh N:S  -1 :  -1 neigh E:W  19 :  17 local size  22 x 512
+icsnode17 rank  19 /  23 : ( 19,  0) neigh N:S  -1 :  -1 neigh E:W  20 :  18 local size  22 x 512
+icsnode17 rank  20 /  23 : ( 20,  0) neigh N:S  -1 :  -1 neigh E:W  21 :  19 local size  22 x 512
+icsnode17 rank  21 /  23 : ( 21,  0) neigh N:S  -1 :  -1 neigh E:W  22 :  20 local size  22 x 512
+icsnode17 rank  22 /  23 : ( 22,  0) neigh N:S  -1 :  -1 neigh E:W  -1 :  21 local size  28 x 512
+simulation took 344.101813 seconds
+5558 conjugate gradient iterations: at rate of 16.152196 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+24 processes decomposed into a 6 x 4 Cartesian topology
+icsnode17 rank   0 /  24 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   4 :  -1 local size  85 x 128
+icsnode17 rank   1 /  24 : (  0,  1) neigh N:S   2 :   0 neigh E:W   5 :  -1 local size  85 x 128
+icsnode17 rank   2 /  24 : (  0,  2) neigh N:S   3 :   1 neigh E:W   6 :  -1 local size  85 x 128
+icsnode17 rank   3 /  24 : (  0,  3) neigh N:S  -1 :   2 neigh E:W   7 :  -1 local size  85 x 128
+icsnode17 rank   4 /  24 : (  1,  0) neigh N:S   5 :  -1 neigh E:W   8 :   0 local size  85 x 128
+icsnode17 rank   5 /  24 : (  1,  1) neigh N:S   6 :   4 neigh E:W   9 :   1 local size  85 x 128
+icsnode17 rank   6 /  24 : (  1,  2) neigh N:S   7 :   5 neigh E:W  10 :   2 local size  85 x 128
+icsnode17 rank   7 /  24 : (  1,  3) neigh N:S  -1 :   6 neigh E:W  11 :   3 local size  85 x 128
+icsnode17 rank   8 /  24 : (  2,  0) neigh N:S   9 :  -1 neigh E:W  12 :   4 local size  85 x 128
+icsnode17 rank   9 /  24 : (  2,  1) neigh N:S  10 :   8 neigh E:W  13 :   5 local size  85 x 128
+icsnode17 rank  10 /  24 : (  2,  2) neigh N:S  11 :   9 neigh E:W  14 :   6 local size  85 x 128
+icsnode17 rank  11 /  24 : (  2,  3) neigh N:S  -1 :  10 neigh E:W  15 :   7 local size  85 x 128
+icsnode17 rank  12 /  24 : (  3,  0) neigh N:S  13 :  -1 neigh E:W  16 :   8 local size  85 x 128
+icsnode17 rank  13 /  24 : (  3,  1) neigh N:S  14 :  12 neigh E:W  17 :   9 local size  85 x 128
+icsnode17 rank  14 /  24 : (  3,  2) neigh N:S  15 :  13 neigh E:W  18 :  10 local size  85 x 128
+icsnode17 rank  15 /  24 : (  3,  3) neigh N:S  -1 :  14 neigh E:W  19 :  11 local size  85 x 128
+icsnode17 rank  16 /  24 : (  4,  0) neigh N:S  17 :  -1 neigh E:W  20 :  12 local size  85 x 128
+icsnode17 rank  17 /  24 : (  4,  1) neigh N:S  18 :  16 neigh E:W  21 :  13 local size  85 x 128
+icsnode17 rank  18 /  24 : (  4,  2) neigh N:S  19 :  17 neigh E:W  22 :  14 local size  85 x 128
+icsnode17 rank  19 /  24 : (  4,  3) neigh N:S  -1 :  18 neigh E:W  23 :  15 local size  85 x 128
+icsnode17 rank  20 /  24 : (  5,  0) neigh N:S  21 :  -1 neigh E:W  -1 :  16 local size  87 x 128
+icsnode17 rank  21 /  24 : (  5,  1) neigh N:S  22 :  20 neigh E:W  -1 :  17 local size  87 x 128
+icsnode17 rank  22 /  24 : (  5,  2) neigh N:S  23 :  21 neigh E:W  -1 :  18 local size  87 x 128
+icsnode17 rank  23 /  24 : (  5,  3) neigh N:S  -1 :  22 neigh E:W  -1 :  19 local size  87 x 128
+simulation took 376.915348 seconds
+5566 conjugate gradient iterations: at rate of 14.767242 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+25 processes decomposed into a 5 x 5 Cartesian topology
+icsnode17 rank   0 /  25 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   5 :  -1 local size 102 x 102
+icsnode17 rank   1 /  25 : (  0,  1) neigh N:S   2 :   0 neigh E:W   6 :  -1 local size 102 x 102
+icsnode17 rank   2 /  25 : (  0,  2) neigh N:S   3 :   1 neigh E:W   7 :  -1 local size 102 x 102
+icsnode17 rank   3 /  25 : (  0,  3) neigh N:S   4 :   2 neigh E:W   8 :  -1 local size 102 x 102
+icsnode17 rank   4 /  25 : (  0,  4) neigh N:S  -1 :   3 neigh E:W   9 :  -1 local size 102 x 104
+icsnode17 rank   5 /  25 : (  1,  0) neigh N:S   6 :  -1 neigh E:W  10 :   0 local size 102 x 102
+icsnode17 rank   6 /  25 : (  1,  1) neigh N:S   7 :   5 neigh E:W  11 :   1 local size 102 x 102
+icsnode17 rank   7 /  25 : (  1,  2) neigh N:S   8 :   6 neigh E:W  12 :   2 local size 102 x 102
+icsnode17 rank   8 /  25 : (  1,  3) neigh N:S   9 :   7 neigh E:W  13 :   3 local size 102 x 102
+icsnode17 rank   9 /  25 : (  1,  4) neigh N:S  -1 :   8 neigh E:W  14 :   4 local size 102 x 104
+icsnode17 rank  10 /  25 : (  2,  0) neigh N:S  11 :  -1 neigh E:W  15 :   5 local size 102 x 102
+icsnode17 rank  11 /  25 : (  2,  1) neigh N:S  12 :  10 neigh E:W  16 :   6 local size 102 x 102
+icsnode17 rank  12 /  25 : (  2,  2) neigh N:S  13 :  11 neigh E:W  17 :   7 local size 102 x 102
+icsnode17 rank  13 /  25 : (  2,  3) neigh N:S  14 :  12 neigh E:W  18 :   8 local size 102 x 102
+icsnode17 rank  14 /  25 : (  2,  4) neigh N:S  -1 :  13 neigh E:W  19 :   9 local size 102 x 104
+icsnode17 rank  15 /  25 : (  3,  0) neigh N:S  16 :  -1 neigh E:W  20 :  10 local size 102 x 102
+icsnode17 rank  16 /  25 : (  3,  1) neigh N:S  17 :  15 neigh E:W  21 :  11 local size 102 x 102
+icsnode17 rank  17 /  25 : (  3,  2) neigh N:S  18 :  16 neigh E:W  22 :  12 local size 102 x 102
+icsnode17 rank  18 /  25 : (  3,  3) neigh N:S  19 :  17 neigh E:W  23 :  13 local size 102 x 102
+icsnode17 rank  19 /  25 : (  3,  4) neigh N:S  -1 :  18 neigh E:W  24 :  14 local size 102 x 104
+icsnode17 rank  20 /  25 : (  4,  0) neigh N:S  21 :  -1 neigh E:W  -1 :  15 local size 104 x 102
+icsnode17 rank  21 /  25 : (  4,  1) neigh N:S  22 :  20 neigh E:W  -1 :  16 local size 104 x 102
+icsnode17 rank  22 /  25 : (  4,  2) neigh N:S  23 :  21 neigh E:W  -1 :  17 local size 104 x 102
+icsnode17 rank  23 /  25 : (  4,  3) neigh N:S  24 :  22 neigh E:W  -1 :  18 local size 104 x 102
+icsnode17 rank  24 /  25 : (  4,  4) neigh N:S  -1 :  23 neigh E:W  -1 :  19 local size 104 x 104
+simulation took 382.683375 seconds
+5555 conjugate gradient iterations: at rate of 14.515917 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+26 processes decomposed into a 13 x 2 Cartesian topology
+icsnode17 rank   0 /  26 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   2 :  -1 local size  39 x 256
+icsnode17 rank   1 /  26 : (  0,  1) neigh N:S  -1 :   0 neigh E:W   3 :  -1 local size  39 x 256
+icsnode17 rank   2 /  26 : (  1,  0) neigh N:S   3 :  -1 neigh E:W   4 :   0 local size  39 x 256
+icsnode17 rank   3 /  26 : (  1,  1) neigh N:S  -1 :   2 neigh E:W   5 :   1 local size  39 x 256
+icsnode17 rank   4 /  26 : (  2,  0) neigh N:S   5 :  -1 neigh E:W   6 :   2 local size  39 x 256
+icsnode17 rank   5 /  26 : (  2,  1) neigh N:S  -1 :   4 neigh E:W   7 :   3 local size  39 x 256
+icsnode17 rank   6 /  26 : (  3,  0) neigh N:S   7 :  -1 neigh E:W   8 :   4 local size  39 x 256
+icsnode17 rank   7 /  26 : (  3,  1) neigh N:S  -1 :   6 neigh E:W   9 :   5 local size  39 x 256
+icsnode17 rank   8 /  26 : (  4,  0) neigh N:S   9 :  -1 neigh E:W  10 :   6 local size  39 x 256
+icsnode17 rank   9 /  26 : (  4,  1) neigh N:S  -1 :   8 neigh E:W  11 :   7 local size  39 x 256
+icsnode17 rank  10 /  26 : (  5,  0) neigh N:S  11 :  -1 neigh E:W  12 :   8 local size  39 x 256
+icsnode17 rank  11 /  26 : (  5,  1) neigh N:S  -1 :  10 neigh E:W  13 :   9 local size  39 x 256
+icsnode17 rank  12 /  26 : (  6,  0) neigh N:S  13 :  -1 neigh E:W  14 :  10 local size  39 x 256
+icsnode17 rank  13 /  26 : (  6,  1) neigh N:S  -1 :  12 neigh E:W  15 :  11 local size  39 x 256
+icsnode17 rank  14 /  26 : (  7,  0) neigh N:S  15 :  -1 neigh E:W  16 :  12 local size  39 x 256
+icsnode17 rank  15 /  26 : (  7,  1) neigh N:S  -1 :  14 neigh E:W  17 :  13 local size  39 x 256
+icsnode17 rank  16 /  26 : (  8,  0) neigh N:S  17 :  -1 neigh E:W  18 :  14 local size  39 x 256
+icsnode17 rank  17 /  26 : (  8,  1) neigh N:S  -1 :  16 neigh E:W  19 :  15 local size  39 x 256
+icsnode17 rank  18 /  26 : (  9,  0) neigh N:S  19 :  -1 neigh E:W  20 :  16 local size  39 x 256
+icsnode17 rank  19 /  26 : (  9,  1) neigh N:S  -1 :  18 neigh E:W  21 :  17 local size  39 x 256
+icsnode17 rank  20 /  26 : ( 10,  0) neigh N:S  21 :  -1 neigh E:W  22 :  18 local size  39 x 256
+icsnode17 rank  21 /  26 : ( 10,  1) neigh N:S  -1 :  20 neigh E:W  23 :  19 local size  39 x 256
+icsnode17 rank  22 /  26 : ( 11,  0) neigh N:S  23 :  -1 neigh E:W  24 :  20 local size  39 x 256
+icsnode17 rank  23 /  26 : ( 11,  1) neigh N:S  -1 :  22 neigh E:W  25 :  21 local size  39 x 256
+icsnode17 rank  24 /  26 : ( 12,  0) neigh N:S  25 :  -1 neigh E:W  -1 :  22 local size  44 x 256
+icsnode17 rank  25 /  26 : ( 12,  1) neigh N:S  -1 :  24 neigh E:W  -1 :  23 local size  44 x 256
+simulation took 408.768890 seconds
+5559 conjugate gradient iterations: at rate of 13.599372 iters/second
+300 newton iterations
+--------------------------------------------------------------------------------
+=== End of simulation. Goodbye! ===
+================================================================================
+                            Welcome to mini-stencil!                            
+version   :: MPI Python
+mesh      ::  512 x  512, dx = 0.001957, dy = 0.001957
+time      ::  100 time steps from 0 to 0.005000
+iteration :: CG 200, Newton 50, tolerance 1.000000e-06
+================================================================================
+27 processes decomposed into a 9 x 3 Cartesian topology
+icsnode17 rank   0 /  27 : (  0,  0) neigh N:S   1 :  -1 neigh E:W   3 :  -1 local size  56 x 170
+icsnode17 rank   1 /  27 : (  0,  1) neigh N:S   2 :   0 neigh E:W   4 :  -1 local size  56 x 170
+icsnode17 rank   2 /  27 : (  0,  2) neigh N:S  -1 :   1 neigh E:W   5 :  -1 local size  56 x 172
+icsnode17 rank   3 /  27 : (  1,  0) neigh N:S   4 :  -1 neigh E:W   6 :   0 local size  56 x 170
+icsnode17 rank   4 /  27 : (  1,  1) neigh N:S   5 :   3 neigh E:W   7 :   1 local size  56 x 170
+icsnode17 rank   5 /  27 : (  1,  2) neigh N:S  -1 :   4 neigh E:W   8 :   2 local size  56 x 172
+icsnode17 rank   6 /  27 : (  2,  0) neigh N:S   7 :  -1 neigh E:W   9 :   3 local size  56 x 170
+icsnode17 rank   7 /  27 : (  2,  1) neigh N:S   8 :   6 neigh E:W  10 :   4 local size  56 x 170
+icsnode17 rank   8 /  27 : (  2,  2) neigh N:S  -1 :   7 neigh E:W  11 :   5 local size  56 x 172
+icsnode17 rank   9 /  27 : (  3,  0) neigh N:S  10 :  -1 neigh E:W  12 :   6 local size  56 x 170
+icsnode17 rank  10 /  27 : (  3,  1) neigh N:S  11 :   9 neigh E:W  13 :   7 local size  56 x 170
+icsnode17 rank  11 /  27 : (  3,  2) neigh N:S  -1 :  10 neigh E:W  14 :   8 local size  56 x 172
+icsnode17 rank  12 /  27 : (  4,  0) neigh N:S  13 :  -1 neigh E:W  15 :   9 local size  56 x 170
+icsnode17 rank  13 /  27 : (  4,  1) neigh N:S  14 :  12 neigh E:W  16 :  10 local size  56 x 170
+icsnode17 rank  14 /  27 : (  4,  2) neigh N:S  -1 :  13 neigh E:W  17 :  11 local size  56 x 172
+icsnode17 rank  15 /  27 : (  5,  0) neigh N:S  16 :  -1 neigh E:W  18 :  12 local size  56 x 170
+icsnode17 rank  16 /  27 : (  5,  1) neigh N:S  17 :  15 neigh E:W  19 :  13 local size  56 x 170
+icsnode17 rank  17 /  27 : (  5,  2) neigh N:S  -1 :  16 neigh E:W  20 :  14 local size  56 x 172
+icsnode17 rank  18 /  27 : (  6,  0) neigh N:S  19 :  -1 neigh E:W  21 :  15 local size  56 x 170
+icsnode17 rank  19 /  27 : (  6,  1) neigh N:S  20 :  18 neigh E:W  22 :  16 local size  56 x 170
+icsnode17 rank  20 /  27 : (  6,  2) neigh N:S  -1 :  19 neigh E:W  23 :  17 local size  56 x 172
+icsnode17 rank  21 /  27 : (  7,  0) neigh N:S  22 :  -1 neigh E:W  24 :  18 local size  56 x 170
+icsnode17 rank  22 /  27 : (  7,  1) neigh N:S  23 :  21 neigh E:W  25 :  19 local size  56 x 170
+icsnode17 rank  23 /  27 : (  7,  2) neigh N:S  -1 :  22 neigh E:W  26 :  20 local size  56 x 172
+icsnode17 rank  24 /  27 : (  8,  0) neigh N:S  25 :  -1 neigh E:W  -1 :  21 local size  64 x 170
+icsnode17 rank  25 /  27 : (  8,  1) neigh N:S  26 :  24 neigh E:W  -1 :  22 local size  64 x 170
+icsnode17 rank  26 /  27 : (  8,  2) neigh N:S  -1 :  25 neigh E:W  -1 :  23 local size  64 x 172
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1549533.26 ON icsnode17 CANCELLED AT 2022-12-20T23:01:45 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 1549533 ON icsnode17 CANCELLED AT 2022-12-20T23:01:45 DUE TO TIME LIMIT ***

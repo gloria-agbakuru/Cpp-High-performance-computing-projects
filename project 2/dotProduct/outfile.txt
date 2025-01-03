@@ -1,0 +1,2 @@
+Serial execution time = 0.011687 sec
+Parallel dot product = 3.33328e+13 time using reduction method = 0.349302 sec, time using critical method 0.24701 sec
